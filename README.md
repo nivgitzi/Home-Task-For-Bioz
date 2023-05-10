@@ -22,7 +22,7 @@ bucket_name = "sample-log-data-028a9a4884211e5c6"
 key = "example.log.gz"
 
 
-# My code here
+#My code here
 
 
 assert len(json_strings) == 21
@@ -34,4 +34,5 @@ assert first_json_string.endswith(', "RetryAttempts": 0}}')
 last_json_string = json_strings[-1]
 assert last_json_string.startswith('{"Resources": ["i-xxx"]')
 assert last_json_string.endswith('"Value": "xxx-78"}]}')
+
 ----------
