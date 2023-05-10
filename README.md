@@ -22,7 +22,15 @@ bucket_name = "sample-log-data-028a9a4884211e5c6"
 key = "example.log.gz"
 
 
+
+
+
+
 #My code here
+
+
+
+
 
 
 assert len(json_strings) == 21
